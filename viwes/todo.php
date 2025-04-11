@@ -7,17 +7,20 @@ include_once '../controllers/c_todo.php';
 <html>
 <head>
     <title>Task List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: 'Poppins', sans-serif;
-            background-color: #f8f9fa;
+            font-family: "Roboto Slab", serif;;
+            background-color: #e4a9a6;
             margin: 20px;
             padding: 20px;
         }
         .container {
             max-width: 800px;
             margin: auto;
-            background: white;
+            background: #ebc2be;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -33,7 +36,7 @@ include_once '../controllers/c_todo.php';
             text-align: left;
         }
         th {
-            background-color: #007bff;
+            background-color: #ef2f51;
             color: white;
         }
         .form-group {
@@ -48,7 +51,7 @@ include_once '../controllers/c_todo.php';
             font-size: 16px;
         }
         button {
-            background-color: #007bff;
+            background-color: #f04261;
             color: white;
             cursor: pointer;
             border: none;
