@@ -1,9 +1,9 @@
 <?php
 class Database {
-        private $host = 'localhost';
-        private $username = 'root';
-        private $password = '';
-        private $database = 'user';
+        private $host = 'sql310.infinityfree.com';
+        private $username = 'if0_38647834';
+        private $password = 'mqU51fk9LDuy5W';
+        private $database = 'if0_38647834_user';
         private $conn;
     
         public function __construct() {
@@ -17,7 +17,7 @@ class Database {
             return mysqli_query($this->conn, $sql);
         }
     
-        public function escape($value) {
+        public function escape($value) { 
             return mysqli_real_escape_string($this->conn, $value);
         }
     
