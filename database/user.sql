@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 22 Feb 2025 pada 06.08
+-- Waktu pembuatan: 10 Apr 2025 pada 02.21
 -- Versi server: 10.4.28-MariaDB
 -- Versi PHP: 8.2.4
 
@@ -39,9 +39,11 @@ CREATE TABLE `tb_task` (
 --
 
 INSERT INTO `tb_task` (`id`, `task`, `deadline`, `status`) VALUES
-(59, 'kopi', '2025-02-22 11:36:00', 'selesai'),
-(61, 'pantai', '2025-02-22 11:55:00', 'belum selesai'),
-(62, 'praujikom', '2025-02-24 08:00:00', 'belum selesai');
+(80, 'makan', '2025-03-11 09:16:00', 'selesai'),
+(81, 'sekolah', '2025-03-11 09:21:00', 'selesai'),
+(83, 'lebaran', '2025-03-31 12:00:00', 'belum selesai'),
+(85, 'main game', '2025-04-01 14:39:00', 'belum selesai'),
+(86, 'makan malam', '2025-04-09 20:13:00', 'belum selesai');
 
 -- --------------------------------------------------------
 
@@ -99,7 +101,7 @@ ALTER TABLE `tb_user`
 -- AUTO_INCREMENT untuk tabel `tb_task`
 --
 ALTER TABLE `tb_task`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=64;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=87;
 
 --
 -- AUTO_INCREMENT untuk tabel `tb_user`
